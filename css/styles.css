@@ -5,6 +5,9 @@
 .header{
     display: flex;
     justify-content: space-between;
+    height: 94px;
+
+
 }
 .container{
     width: 1200px;
@@ -26,17 +29,35 @@ nav, .navigation {
 }
 .navigation{
     display: flex;
+    width: 430px;
+    list-style: none;
+    justify-content: space-between;
+
 }
 .navigat{
     width: 850px;
 }
-nav,.navigation{
-    display: flex;
-}
-nav, .navigation {
-    display: flex;
-}
 
+
+nav, .navigation, .btn {
+    display: flex;
+    justify-content: space-between;
+}
+nav .btn {
+    width: 380px;
+
+    text-align: center;
+    display: inline-block;
+    line-height: 42px;
+    border-radius: 3px;
+
+    color: red ;
+    font-family: 'Metropolis';
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
 
 .header-container{
     width: 100%;
@@ -46,10 +67,14 @@ nav, .navigation {
     max-width: 1200px;
     margin: 0 auto;
 }
+a small {
+    margin-left: 6px;
+    border: #00aac6 solid 1px;
 
+}
 
 nav {
-    justify-content: end;
+    justify-content: space-between;
 }
 .getstart{
     height: 672px;
@@ -57,14 +82,58 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.getstart_container{
+    width: 640px;
+}
+.getstart_container h1{
+    color: white;
+    font-size: 54px;
+    text-align: left;
+    font-family: "Goldplay";
+    font-weight: 400;
+    position: relative;
+    top: 256px ;
+
+}
+.getstart_container .btn-white{
+    border: #ffffff 1px solid;
+    text-align: center;
+    padding: 22px 90px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #00aac6 ;
+    font-family: "Goldplay";
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    top: 300px;
+
+    }
 .about{
     height: 766px;
-    background-image: url("../images/section2.png");
+    background-image: url("../images/section22.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .about_container{
     max-width: 500px;
+}
+.about h2{
+    color: #00aac6;
+    font-size: 36px;
+    font-family: "Goldplay", sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 280px ;
+}
+.about_p{
+    color: #434343;
+    font-family: "Poppins",sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    margin-block-start: 335px;
 }
 .choose{
     height: 537px;
