@@ -167,13 +167,38 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
+
 .item{
-    max-width: 335px;
+    max-width: 345px;
 }
 .item h3{
     margin-top: 88px;
     margin-bottom: 50px;
 }
+ .choose .owl-dots .owl-dot.active span{
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     display: inline-block;
+     background-color: #1ab3cc;
+     border: 2px solid black;
+ }
+
+.choose .owl-dots .owl-dot span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    border-color: black;
+    border: 2px solid black;
+}
+
+.owl-container{
+    display: flex;
+}
+
 .footer-container{
     display: flex;
     justify-content: space-between;
