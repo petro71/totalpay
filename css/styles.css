@@ -3,8 +3,7 @@
     padding: 0;
 }
 .header{
-    display: flex;
-    justify-content: space-between;
+
     height: 94px;
 
 
@@ -15,9 +14,26 @@
     position: relative;
     height: 100%;
 }
-
-nav, .navigation {
+.header-container{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logotype{
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.navigat{
+    width: 950px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 26px;
 }
 
 
@@ -32,52 +48,53 @@ nav, .navigation {
 .navigation{
     display: flex;
     width: 430px;
+    padding-top: 15px;
     list-style: none;
     justify-content: space-between;
+}
+.navigation a{
+    text-decoration: none;
+    color: #afafaf;
 
 }
-.navigat{
-    width: 850px;
+.navigation .active{
+    color: #00aac6;
 }
 
 
-nav, .navigation, .btn {
-    display: flex;
-    justify-content: space-between;
-}
 nav .btn {
     width: 380px;
-
-    text-align: center;
     display: inline-block;
-    line-height: 42px;
-    border-radius: 3px;
 
-    color: red ;
+
+
+
+}
+nav .btn a{
+    line-height: 42px;
+    border-radius: 5px;
+    text-align: center;
+
     font-family: 'Metropolis';
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
+    margin-left: 10px;
+    border: #00aac6 solid 2px;
+    padding-top: 12px;
+    padding-bottom: 12px ;
+    color: #00aac6;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn-active.small {
+    color: white;
+    background-color: #00aac6;
 
 }
 
-.header-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-a small {
-    margin-left: 6px;
-    border: #00aac6 solid 1px;
 
-}
-
-nav {
-    justify-content: space-between;
-}
 .getstart{
     height: 672px;
     background-image: url("../images/section11.png");
