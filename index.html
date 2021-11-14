@@ -8,6 +8,7 @@
     <title>Total Pay</title>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
+
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
 
@@ -15,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dialog.css">
+
 
 </head>
 <body>
@@ -31,22 +34,22 @@
                     <ul class="navigation">
                         <li>
                             <a class="active" href="#">
-                            ABOUT US
+                            About us
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                            SOLUTIONS
+                            Solutions
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                            FEATURES
+                            Features
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                            CONTACT US
+                            Contact us
                             </a>
                         </li>
 
@@ -58,17 +61,83 @@
                         <a href="#" class="btn-small small" title="merchant">
                         MERCHANT
                         </a>
-
-
-
-
-                         <a href="#" class="btn-small small" title="agent">
+                        <a id="myBtn" href="#" class="btn-small small" title="agent">
                             AGENT
                         </a>
 
 
                     </div>
                 </nav>
+
+                <!-- Trigger/Open The Modal -->
+
+
+                <!-- The Modal -->
+                <div id="contentPopup" class="popup-wrapper">
+
+                    <!-- Modal content -->
+                    <div class="popup-content">
+                        <span class="close">X</span>
+                        <p>Some text in the Modal..</p>
+                    </div>
+
+                </div>
+
+                <div class="mobile-menu">
+                    <div id="toggle">
+                        <input type="checkbox">
+                        <span></span>
+                    </div>
+
+                    <div id="menu">
+                        <div id="logo">
+                            <img src="images/logo.png" alt="logo"/>
+                        </div>
+                        <ul>
+                            <li>
+                                <a class="active" href="#">
+                                    About us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Solutions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Features
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Contact us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-active small" title="apply_now">
+                                    APPLY NOW
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-small small" title="merchant">
+                                    MERCHANT
+                                </a>
+                            </li>
+                            <li>
+                                <a id="myBtn2" href="#" class="btn-small small" title="agent">
+                                    AGENT
+                                </a>
+                            </li>
+
+                            <!--<li>Home</li>
+                            <li>About</li>
+                            <li>Store</li>
+                            <li>Articles</li>-->
+                        </ul>
+                    </div>
+                </div>
+
             </div>
        </div>
     </header>
@@ -337,10 +406,12 @@
             </div>
         </div>
     </footer>
-
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="js/dialog.js"></script>
+<script src="js/mobile-menu.js"></script>
 <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-<script src="js/script2.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<!--<script src="js/script2.js"></script>-->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
